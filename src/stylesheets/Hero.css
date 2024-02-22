@@ -1,0 +1,53 @@
+.hero1 {
+  position: relative;
+  min-width: 100%; /* Ajusta el ancho según tus necesidades */
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  background-image: url('../imagenes/img-fiambre.jpg'); /* Ruta de tu imagen */
+  background-size: cover; /* Ajusta según cómo quieras que la imagen cubra el fondo */
+  background-position: center; /* Ajusta según cómo quieras posicionar la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*
+.hero1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 19, 19, 0.7); 
+}
+*/
+
+.text-image {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(179, 245, 199);
+  display: flex;
+  flex-wrap: wrap;
+  text-align:start;
+  justify-content:start;
+  align-items: center;
+  height: 150px;
+  width: 500px;
+  position: relative;
+  top: 250px;
+  transition: color 0.5s;
+  z-index: 1; /* Ajusta el valor de z-index para que esté por encima del fondo */
+}
+
+.text-image:hover{
+  color: rgba(179, 245, 199, 0.411);
+}
+
+@media (max-width: 767px) {
+  .text-image {
+    font-size: 1.5rem; /* Tamaño de texto reducido para pantallas pequeñas */
+  }
+}
+
+@media (max-width: 375px) {
+  .text-image {
+    font-size: 1rem; /* Tamaño de texto reducido para pantallas pequeñas */
+  }
+}

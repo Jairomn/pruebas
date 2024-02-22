@@ -1,0 +1,33 @@
+div .card-group{
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.ver-mas{
+    cursor: pointer;
+    color:coral
+}
+
+.ver-mas:hover{
+    color:brown;
+    font-weight: 600;
+}
+
+/* Estilo inicial para la imagen */
+.card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Efecto de zoom al pasar el mouse */
+  .card-img-top:hover {
+    transform: scale(1.2); /* Puedes ajustar el valor para controlar el nivel de zoom */
+  }
+
+  /* Estilo para el contenedor */
+section {
+    overflow: hidden; /* Esto ocultará cualquier contenido que se salga del contenedor */
+  }

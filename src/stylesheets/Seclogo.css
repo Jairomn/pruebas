@@ -1,0 +1,33 @@
+img.img-thumbnail{
+    max-width: 300px;
+    transition: transform 0.3s ease;
+    border-style: none;
+    background-color: rgb(10, 10, 10);
+
+    
+}
+
+img.img-thumbnail:hover{
+    transform: scale(1.1); /* Puedes ajustar el valor para controlar el nivel de zoom */
+
+}
+
+div.containerlogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(10, 10, 10);
+    color:aliceblue
+
+}
+
+.textologo{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
